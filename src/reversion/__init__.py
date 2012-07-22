@@ -17,7 +17,7 @@ from reversion.version import __version__
 VERSION = __version__ 
 
 SUPPORTED_DJANGO_VERSIONS = (
-    (1, 4, 0),
+    (1, 5, 0),
 )
 
 def check_django_version():
