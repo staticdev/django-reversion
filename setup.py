@@ -1,7 +1,7 @@
 import sys
 sys.path.append('src/reversion')
 from distutils.core import setup
-from version import __version__
+#from version import __version__
 
 
 # Load in babel support, if available.
@@ -15,7 +15,7 @@ except ImportError:
     cmdclass = {}
 
 setup(name="django-reversion",
-      version='.'.join(str(x) for x in __version__),
+      version='1.6.1', #'.'.join(str(x) for x in __version__),
       license=open("LICENSE").read(),
       description="An extension to the Django web framework that provides comprehensive version control facilities",
       long_description=open("README.markdown").read(),
